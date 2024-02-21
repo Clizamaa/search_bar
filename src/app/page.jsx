@@ -1,8 +1,9 @@
+
 import Results from "@/components/Results";
 import { FcSearch } from "react-icons/fc";
 
 export default function Home() {
-  return (
+    return (
     <div className="container mx-auto min-h-screen bg-white">
         <h1 className="text-4xl font-bold text-center">Búsqueda</h1>
           <div className="relative flex justify-center">
@@ -10,11 +11,11 @@ export default function Home() {
             <input type="text" className="border-2 rounded-lg border-indigo-300 p-2 m-2 w-full pl-10" placeholder="Buscar" />
           </div>
         {/* cuadro de resultado */}
-        <div>
-            <Results />    
-        </div>
+        <Results  />
+        
     </div>
   );
 }
+
 
 
